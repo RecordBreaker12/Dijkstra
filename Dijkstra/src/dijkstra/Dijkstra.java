@@ -99,10 +99,10 @@ public class Dijkstra {
         Dijkstra dpq = new Dijkstra(V);
         dpq.dij(adj, source);
  
-        System.out.println("The shorted path from node :");
+        System.out.println("O caminho mais curto do:");
         
         for (int i = 0; i < dpq.dist.length; i++){
-            System.out.println(source + " to " + i + " is " + dpq.dist[i]);
+            System.out.println(source + " ao " + i + " foi " + dpq.dist[i]);
         }
     }
 }
